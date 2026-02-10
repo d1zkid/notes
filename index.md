@@ -7,7 +7,7 @@ Hey These are my markdown notes mainly focused around **Cyber-security** but I a
 		- [x] Make a new role in tailscale for jellyfin access 
 		- [ ] Fix all Metadata Issues
 		- [x] Have a look at Transcoding
-		- [ ] *optional:* add Live TV functionality
+		- [x] *optional:* add Live TV functionality
 - **Hack The Box: Academy**
 	- **Bug Bounty Hunting Path**
 		- [ ] [Introduction to Web Applications](https://academy.hackthebox.com/module/details/75)

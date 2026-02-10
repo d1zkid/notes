@@ -152,7 +152,7 @@ $ /usr/sbin/pwm
 [-] File /home/www-data/.passwords not found
 ```
 
-the code is encoded so we wont be able to easily change it so we either have to do some reverse engineering or we just try to manipulate the ID command so that the script thinks are the think user
+the code is encoded so we wont be able to easily change it so we either have to do some reverse engineering or we just try to manipulate the ID command so that the script thinks we are the "think" user
 ```bash
 # The /usr/sbin/pwm command checks in each directory of $PATH to see if there is an id command present 
 # If we edit the $PATH variable to have /tmp(or any other directory we have access to) at the beginning then the /usr/sbin/pwm command will first check the /tmp directory for an id file present in there and try to execute it so when we edit the file to return the think user instead of www-data the script will think that we are think 

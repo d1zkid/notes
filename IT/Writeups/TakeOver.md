@@ -98,4 +98,4 @@ This one felt like grasping at straws. I brute-forced for nearly two hours befor
 
 **What did I learn?**
 -    Check SSL certs immediately when a site has one.
--    brute-forcing isn’t always the best approach to web enumeration.
+-    brute-forcing isn’t the best approach to web enumeration.
