@@ -3,7 +3,7 @@ This CTF seems to use domains so I already went ahead and added the domain `look
 ## Nmap
 Time to see what ports are Open on the machine...
 ```bash
-$ cat nmap-initial 
+$ nmap lookup.thm -oN nmap-initial
 # Nmap 7.94SVN scan initiated Tue Apr 22 16:08:15 2025 as: nmap -oN nmap-initial lookup.thm
 Nmap scan report for lookup.thm (10.10.198.178)
 Host is up (0.040s latency).
@@ -92,7 +92,7 @@ I did some testing with the login page trying to see how it works doing that I f
 When we try with a trash user we get `Wrong username or password` as the output
 ![[Pasted image 20250423145755.png]]
 
-When using the admin user we only get `Wrong password` which indicates that the password request are being handled insecurely 
+When using the admin user we only get `Wrong password` which indicates that there's a admin user present
 ![[Pasted image 20250423145852.png]]
 
 # Exploitation
@@ -121,7 +121,7 @@ $ hydra -L /usr/share/seclists/Usernames/xato-net-10-million-usernames.txt -p pa
 
 Now we can finally login!
 ## elFinder
-Upon Logging in We get greeted with a bunch of files that contain what I think is password's But I didn't care too much about that as the version seems to be outdated and there is a public exploit available at [GitHub](https://github.com/hadrian3689/elFinder_2.1.47_php_connector_rce/tree/main) 
+Upon Logging in We get greeted with a bunch of files that contain what I think is password's But I didn't care too much about that as the version seems to be outdated and there is a public exploit available on [GitHub](https://github.com/hadrian3689/elFinder_2.1.47_php_connector_rce/tree/main) 
 ![[Pasted image 20250424182331.png]]
 
 After Downloading the Exploit all I had to do is run it
@@ -142,7 +142,7 @@ uid=33(www-data) gid=33(www-data) groups=33(www-data)
 www-data@lookup:/var/www/files.lookup.thm/public_html/elFinder/php$ 
 ```
 
-*After that I took a peek at someone else's writeup because im not too good with privesc yet*
+*After that I took a peek at someone else's write up because i'm not too good with privilege escalation yet*
 
 I found the File `/usr/sbin/pwm` which is owned by root when we run it we get
 ```bash

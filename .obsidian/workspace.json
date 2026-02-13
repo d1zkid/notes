@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/Notes/Local LLMs.md",
+                "file": "IT/Notes/Open WebUI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Local LLMs"
+              "title": "Open WebUI"
             }
           },
           {
@@ -192,22 +192,23 @@
   },
   "active": "2364b89fa2074b12",
   "lastOpenFiles": [
-    "index.md",
-    "IT/Notes/Local LLMs.md",
-    "IT/Projects/Apple pwnbox(on mac mini 2009).md",
-    "IT/Projects/secureblue/Pear Desktop.md",
-    "IT/Notes/Android Package - APK.md",
-    "IT/Notes/Networking.md",
-    "IT/Notes/Web Apps.md",
-    "IT/Notes/nmap.md",
-    "IT/Writeups/Archetype.md",
-    "IT/Writeups/TakeOver.md",
     "IT/Writeups/Nocturnal.md",
     "IT/Writeups/MrRobotCTF.md",
     "IT/Writeups/Lookup.md",
     "IT/Writeups/Lo-Fi.md",
-    "IT/Writeups/Linke.sx.md",
     "IT/Writeups/Basic Pentesting.md",
+    "IT/Writeups/Linke.sx.md",
+    "IT/Writeups/Archetype.md",
+    "README.md",
+    "IT/Notes/Open WebUI.md",
+    "IT/Notes/Web Apps.md",
+    "IT/Notes/nmap.md",
+    "IT/Notes/Networking.md",
+    "_images/Pasted image 20260211154535.png",
+    "IT/Projects/Apple pwnbox(on mac mini 2009).md",
+    "IT/Projects/secureblue/Pear Desktop.md",
+    "IT/Notes/Android Package - APK.md",
+    "IT/Writeups/TakeOver.md",
     "IT/Projects/secureblue",
     "_images/Pasted image 20250701152544.png",
     "_images/Pasted image 20250701173446.png",
@@ -220,7 +221,6 @@
     "School/US-Geschichte.md",
     "Ereignisse der US-Geschichte.md",
     "_images/Pasted image 20250520201122.png",
-    "_images/waves.png",
     "_images/wakeup.webm",
     "_images/fsociety.webm",
     "School/Metalle.md",
@@ -236,7 +236,6 @@
     "other/Growing Weed.md",
     "other",
     "Excalidraw/Drawing 2024-10-11 15.37.30.excalidraw.md",
-    "Untitled.md",
     "Excalidraw"
   ]
 }

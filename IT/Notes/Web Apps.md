@@ -7,10 +7,10 @@ On the other hand there are web apps which are dynamic and usually offer feature
 ![[Pasted image 20241029175323.png]]
 
 ## Components
-
+...
 
 ## Infrastructure
-
+...
 
 ## Front end
 The **Front end** is how the website looks and how you can interact with it. It works together with the **back end** _in the Application and in the development_ to create a working web app.

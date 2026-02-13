@@ -9,9 +9,7 @@
  - `-A`: Aggressive scan _may get detected_
 
 ## Advanced options
-
-_most require **sudo priveleges**_
- 
+*most require **sudo priveleges***
  - `--script [script//script category]`: uses a _script_ or a _script category_
  - `-D RND:5`: uses 5 random decoy IP's
  - `-n`: disables DNS resolution
